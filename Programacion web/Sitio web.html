@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PROYECTO FINAL</title>
+
+
+    <link rel="stylesheet" href="Estilo1.css" type=""> <!--enlace para vincular mi hoja de estilo-->
+
+
+</head>
+
+<body>
+    <div id="container" > <!--div contiene toda la pagina web (es una caja con ciertas medidas)-->
+
+     <!--header style="border: 3px rgb(26, 12, 22) solid; background-color: aqua;"-->
+     <header> <!--es una caja que hace referencia a la cabezera del sitio web-->
+         <h1>GAMERS</h1>
+    </header>
+
+    <nav> <!--nav me define una barra de navegacion-->
+         <ul class="menu">
+            <li><a href="#">Inicio</a></li>
+            <li id="Historia" onmouseover="ver(1)" onmouseout="ocultar(1)"><a href="ejemplo1.html" target="_blank">Historia</a>
+                <div id="subseccion1">
+                    <p><a href="https://supermario-game.com/es"  target="_blank">Mario Bros</a></p>
+                    <p><a href="https://www.juegotk.com/juego/galaga/online.html"  target="_blank">Galaga</a></p>
+                    <p><a href="https://www.minijuegos.mx/juego/donkey-kong"  target="_blank">Donkey Kong</a></p>
+                </div>
+            </li>   
+            <li onmouseover="ver(2)" onmouseout="ocultar(2)"><a href="EJEMPLO2.html"  target="_blank">Evolucion</a>
+                 <div id="subseccion2">
+                    <p><a href="https://www.juegotk.com/juego/sonic/online.html"  target="_blank">Sonic</a></p>
+                    <p><a href="https://www.pacmangratis.net/"  target="_blank">Pacman</a></p>
+                    <p><a href="https://www.retrogames.cz/play_771-NES.php"  target="_blank">Punch Out</a></p>
+                 </div>
+            </li>     
+                <!--ul>
+                   <li><a href="#"  target="_blank">submenu1</a></li>
+                   <li><a href="#"  target="_blank">submenu2</a></li>
+                </ul-->
+            <li><a href="Contactos.html"  target="_blank">contacto</a></li>
+            <li><a href="Blog.html"  target="_blank">blog</a></li>
+         </ul>
+    </nav>
+    
+    <div class="clearfix"></div> <!--para que los elementos se queden en su lugar (no floten hacia la caja de arriba)-->
+
+    <section id="content" >
+
+            <!--article style="border: 3px rgb(231, 151, 211) solid; background-color: rgb(243, 165, 219);"-->
+
+            <h1 align="center"><font size="6" face="Arial" color="white">PLATAFORMAS POPULARES ACTUALES</font> </h1>
+
+        <article class="articulo" >
+            <h2>PLAYSTATION</h2>
+            <p>Creadas y desarrolladas por Sony Interactive Entertainment.
+                La marca se introdujo por primera vez el 3 de diciembre de 1994 y ha desarrollado y publicado cinco videoconsolas de sobremesa, 
+                que incluyen un centro de medios de comunicación y un servicio en línea.</p>
+        </article>
+
+        <article class="articulo">
+            <h2>XBOX</h2>
+            <p>Xbox es una marca de videojuegos creada por Microsoft que incluye una serie de videoconsolas desarrolladas por la misma compañía, 
+            de sexta a novena generación, así como aplicaciones (juegos), servicios de streaming y el servicio en línea Xbox Live.</p>
+        </article>
+
+        <article class="articulo">
+            <h2>NINTENDO</h2>
+            <p>La historia de Nintendo tuvo un momento clave en 1984, cuando nació la consola de videojuegos Famicom, 
+                luego conocida como Nintendo Entertainment System o NES. “Super Mario Bros.”, “The Legend of Zelda” y “Punch-out!”
+                estuvieron entre los juegos más famosos.
+                Hay que saber que se ha convertido en una de las empresas de Japón más importantes y ricas de la historia. 
+                En concreto, hay que saber que es la empresa que más ha vendido en toda la historia del mundo del videojuego.</p>
+
+        </article>
+
+        <article class="articulo">
+            <h2>PC</h2>
+            <p>Los juegos para equipos domésticos se popularizaron tras la crisis del videojuego de 1983. 
+                En la década de 1990, los juegos de PC perdieron su posición en el mercado, por culpa de los videojuegos,
+                 pero resurgieron a mediados de la década de los 2000 baruc mediante la distribución digital.
+                 Bertie the Brain fue uno de los primeros juegos desarrollados. Lo creó Josef Kates en 1950. 
+                 Las dimensiones del elemento eran de hasta 4 metros de alto y se presentó en la exhibición nacional de Canadá ese mismos año.</p>
+        </article>
+
+    </section>
+
+    <aside>  <!--semanticamente representa una caja lateral-->
+         <h1>Ingrese una busqueda</h1>
+         <form>
+            <input type="text">
+            <input type="submit" value="Buscar" >
+         </form>
+    </aside>
+    
+    <div class="clearfix"></div>
+
+    <footer>
+    <p><marquee width=70%  scrolldelay="75-50-25">Los juegos nos desafían para un mejor uso de nuestras fortalezas y eliminan el miedo al fracaso, mejorando nuestras posibilidades de éxito. 
+    Los buenos juegos apoyan la cooperación social y la participación cívica a gran escala.</marquee></p>
+    </footer>
+    
+    <!-- &nbsp;  un espaciado entre caracteres-->
+
+     </div>
+     <script src="JS/main.js"></script>
+</body>
+</html>
